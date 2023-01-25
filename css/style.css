@@ -212,12 +212,13 @@ header .container .col-md-7 button {
 .purchase > h1 {
   padding-top: 15vmin;
   padding-bottom: 0.1rem;
+  font-size: 2em;
   font-family: var(--Lobster);
 }
 
 .purchase > p {
   color: var(--ligth-black);
-  font-size: 2vmin;
+  font-size: 1em;
   padding-bottom: 10vmin;
 }
 
@@ -256,24 +257,27 @@ header .container .col-md-7 button {
 /* section 3 */
 
 .section-3 {
-  height: 100vmin;
+  min-height: 100vh;
   margin-top: 15vmin;
   background: var(--bggradient);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
 
 .section-3 .col-md-12 > h1 {
   padding-bottom: 0.5em;
   color: whitesmoke;
-  font-size: 5vmin;
+  font-size: 2em;
 }
 
 .section-3 .col-md-12 > p {
   padding: 0 4em;
   padding-bottom: 2em;
   color: var(--light-gray);
-  font-size: 2vmin;
+  font-size: 1em;
 }
 
 .section-3 .desktop {
@@ -297,17 +301,17 @@ header .container .col-md-7 button {
 }
 
 .section-3 .desktop h3 {
-  font-size: 4vmin;
+  font-size: 1em;
 }
 
 .section-3 .desktop p {
-  font-size: 2vmin;
+  font-size: 0.7em;
 }
 
 /* section 4 */
 
 .section-4 .container h1 {
-  font-size: 5vmin;
+  font-size: 2rem;
   padding-top: 14vmin;
 }
 
